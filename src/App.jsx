@@ -1,5 +1,6 @@
 import React from 'react'
 import ToDoList from './ToDoList';
+import Avatar from './Avatar';
 
 function App() {
     return (
@@ -14,6 +15,8 @@ function App() {
             </p>
 
             <ToDoList />
+
+            <Avatar />
         </div >
 
     )
