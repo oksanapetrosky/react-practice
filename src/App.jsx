@@ -1,6 +1,7 @@
 import React from 'react'
 import ToDoList from './ToDoList';
 import Avatar from './Avatar';
+import Gallery from './Gallery';
 
 function App() {
     return (
@@ -13,10 +14,9 @@ function App() {
                 <br /><br />
                     <b>And <i>pictures</i></b> of scientists!
             </p>
-
             <ToDoList />
-
             <Avatar />
+            <Gallery />
         </div >
 
     )
