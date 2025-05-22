@@ -2,6 +2,7 @@ import React from 'react'
 import ToDoList from './ToDoList';
 import Avatar from './Avatar';
 import Gallery from './Gallery';
+import NewProfile from './Thumbnail';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <ToDoList />
             <Avatar />
             <Gallery />
+            <NewProfile />
         </div >
 
     )
