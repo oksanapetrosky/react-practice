@@ -3,6 +3,7 @@ import ToDoList from './ToDoList';
 import Avatar from './Avatar';
 import Gallery from './Gallery';
 import NewProfile from './Thumbnail';
+import PackingList from './PackingList';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <Avatar />
             <Gallery />
             <NewProfile />
+            <PackingList />
         </div >
 
     )
