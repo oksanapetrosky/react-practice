@@ -4,6 +4,8 @@ import Avatar from './Avatar';
 import Gallery from './Gallery';
 import NewProfile from './Thumbnail';
 import PackingList from './PackingList';
+import List from './List';
+
 
 function App() {
     return (
@@ -21,6 +23,7 @@ function App() {
             <Gallery />
             <NewProfile />
             <PackingList />
+           <List />
         </div >
 
     )
