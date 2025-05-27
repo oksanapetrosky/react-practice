@@ -1,9 +1,10 @@
+
 import React from 'react';
 import { getImageUrl } from './utils.js';
 
 
-
 function Avatar({ person, size }) {
+  
     return (
         <div>
             <img
